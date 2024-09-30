@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="assets/images/logo.png" alt="Logo tipo cafeteria css">
@@ -39,96 +39,122 @@
         </div>
       </nav>
       
-    <!-- Carousel -->
-    <div id="carousel-coffee" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://plus.unsplash.com/premium_photo-1675237625862-d982e7f44696?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="grãos de café">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>A melhor experiência gastronômica de café</h5>
-        <p>Você vai experenciar os melhores cafés do Brasil e do mundo.</p>
+    <main>
+          <!-- Carousel -->
+    <header id="carousel-coffee" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Entrada cafeteria">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Design Moderno e Ambiental</h5>
-        <p>Conte com uma experiëncia única e diversificada em nossa cafeteria.</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://plus.unsplash.com/premium_photo-1675237625862-d982e7f44696?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="grãos de café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A melhor experiência gastronômica de café</h5>
+            <p>Você vai experenciar os melhores cafés do Brasil e do mundo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Entrada cafeteria">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Design Moderno e Ambiental</h5>
+            <p>Conte com uma experiëncia única e diversificada em nossa cafeteria.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://plus.unsplash.com/premium_photo-1674931348670-68936350ed55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Preparação do café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tecnológico e tradicional</h5>
+            <p>Conte com técnologia de ponta, mas também com a tradição de fazer café com nossos colabores</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://plus.unsplash.com/premium_photo-1674931348670-68936350ed55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Preparação do café">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Tecnológico e tradicional</h5>
-        <p>Conte com técnologia de ponta, mas também com a tradição de fazer café com nossos colabores</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-    <!-- Quote -->
-    <figure>
-      <blockquote class="blockquote">
-        <h3 class="fw-lighter text-center fst-italic mt-5">
-          "O amor é um café às oito da manhã numa segunda."
-        </h3>
-      </blockquote>
-      <figcaption class="blockquote-footer text-center">
-        <cite title="Source Title">Coffe Shop</cite>
-      </figcaption>
-    </figure>
-
-    <!-- About Cards -->
-    <section id="about" class="container mt-5">
-      <div class="row">
-        <div class="col-kg-6 col-md-12">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="Café gelato">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Somos Apaixonados por Café</h5>
-                  <h6 class="card-subtitle text-muted text-muted mb-3">Acreditamos que o café pode mudar o (seu) mundo.</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga impedit at eveniet aspernatur distinctio atque repudiandae! Ipsa at enim doloremque? Veritatis cumque ipsam distinctio omnis aliquid. Modi, esse earum?</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+    
+        <!-- Quote -->
+        <figure>
+          <blockquote class="blockquote">
+            <h3 class="fw-lighter text-center fst-italic mt-5">
+              "O amor é um café às oito da manhã numa segunda."
+            </h3>
+          </blockquote>
+          <figcaption class="blockquote-footer text-center">
+            <cite title="Source Title">Coffe Shop</cite>
+          </figcaption>
+        </figure>
+    
+        <!-- About Cards -->
+        <section id="about" class="container mt-5">
+          <div class="row">
+            <div class="col-kg-6 col-md-12">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="Café gelato">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Somos Apaixonados por Café</h5>
+                      <h6 class="card-subtitle text-muted text-muted mb-3">Acreditamos que o café pode mudar o (seu) mundo.</h6>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga impedit at eveniet aspernatur distinctio atque repudiandae! Ipsa at enim doloremque? Veritatis cumque ipsam distinctio omnis aliquid. Modi, esse earum?</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-kg-6 col-md-12">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="https://plus.unsplash.com/premium_photo-1661724656715-898dd40cf8a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="Café gelato">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Equipe Premium de baristas</h5>
-                  <h6 class="card-subtitle text-muted text-muted mb-3">Seu atendimento especializado.</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga impedit at eveniet aspernatur distinctio atque repudiandae! Ipsa at enim doloremque? Veritatis cumque ipsam distinctio omnis aliquid. Modi, esse earum?</p>
+            <div class="col-kg-6 col-md-12">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://plus.unsplash.com/premium_photo-1661724656715-898dd40cf8a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="Café gelato">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Equipe Premium de baristas</h5>
+                      <h6 class="card-subtitle text-muted text-muted mb-3">Seu atendimento especializado.</h6>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga impedit at eveniet aspernatur distinctio atque repudiandae! Ipsa at enim doloremque? Veritatis cumque ipsam distinctio omnis aliquid. Modi, esse earum?</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            </div>
+          </section>
+        </div> 
+
+        <!-- Menu -->
+         <section id="menu" class="container mt-5">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Expresso</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Cappuccinos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Gelados</button>
+            </li>
+            <li class="nav-item" role="presentation"></li>
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Especiais</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">Café Expresso</div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Cappuccinos</div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Gelados</div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Especiais</div>
           </div>
-        </div>
-        </div>
-      </section>
-    </div> 
+         </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
